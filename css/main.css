@@ -2,7 +2,29 @@
 
   .paragraphs {
     column-count: 2;
-    column-gap: 4em;
+    column-gap: 2em;
   }
 
+}
+
+.banner {
+  position: relative;
+  height: 25em;
+}
+
+.banner-text {
+  position: absolute;
+
+  top: 2.5em;
+}
+
+.btn {
+  background: none;
+  border: none;
+  color: #000;
+}
+
+.btn:hover {
+  background: none;
+  color: #aaa;
 }
