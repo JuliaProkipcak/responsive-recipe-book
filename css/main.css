@@ -7,15 +7,54 @@
 
 }
 
+h1 {
+  font-family: barteldes-small, serif;
+  font-weight: 700;
+  color: #d2232a;
+}
+
+h2 {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 300;
+}
+
+p {
+  font-family: adriane, serif;
+  font-weight: 400;
+}
+
 .banner {
   position: relative;
   height: 25em;
+  overflow: hidden;
 }
 
 .banner-text {
   position: absolute;
+  left: 5%;
+  bottom: 5%;
+}
 
-  top: 2.5em;
+.card {
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 10px;
+  text-decoration: none;
+  height: 360px;
+}
+
+.card a {
+  text-decoration: none;
 }
 
 .btn {
@@ -24,7 +63,21 @@
   color: #000;
 }
 
+.card:hover {
+  border-width: 1.5px;
+  border-color: #d2232a;
+}
+
+.card:hover a {
+  background: #FFF8F4;
+  color: #d2232a;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .btn:hover {
   background: none;
-  color: #aaa;
+  color: #d2232a;
 }
