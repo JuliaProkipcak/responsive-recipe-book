@@ -33,16 +33,16 @@ p {
   font-weight: 400;
 }
 
-.banner {
+.chop {
+  max-height: 20em;
   position: relative;
-  height: 25em;
-  overflow: hidden;
 }
 
-.banner-text {
+.content {
   position: absolute;
-  left: 5%;
-  bottom: 5%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
 }
 
 .card {
@@ -66,10 +66,10 @@ p {
 .card:hover {
   border-width: 1.5px;
   border-color: #d2232a;
+  background: #FFF8F4;
 }
 
 .card:hover a {
-  background: #FFF8F4;
   color: #d2232a;
 }
 
