@@ -66,7 +66,7 @@ p {
 .card:hover {
   border-width: 1.5px;
   border-color: #d2232a;
-  background: #FFF8F4;
+  background: #fff8f4;
 }
 
 .card:hover a {
