@@ -7,14 +7,10 @@
 
   .chop {
     max-height: 20em;
-    position: relative;
   }
 
   .content {
-    position: absolute;
     width: 100%;
-    left: 0;
-    bottom: 25em;
   }
 
 }
@@ -40,21 +36,14 @@ h4 {
   font-weight: 300;
 }
 
+h6 {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+}
+
 p {
   font-family: adriane, serif;
   font-weight: 400;
-}
-
-.chop {
-  max-height: 20em;
-  position: relative;
-}
-
-.content {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 5em;
 }
 
 .card {
