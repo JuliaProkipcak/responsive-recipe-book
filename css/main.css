@@ -5,6 +5,18 @@
     column-gap: 2em;
   }
 
+  .chop {
+    max-height: 20em;
+    position: relative;
+  }
+
+  .content {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 25em;
+  }
+
 }
 
 h1 {
@@ -42,7 +54,7 @@ p {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: 0;
+  bottom: 5em;
 }
 
 .card {
@@ -50,7 +62,7 @@ p {
   border-style: solid;
   border-radius: 10px;
   text-decoration: none;
-  height: 360px;
+  min-height: 360px;
 }
 
 .card a {
