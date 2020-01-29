@@ -17,7 +17,6 @@
 
 h1 {
   font-family: barteldes-small, serif;
-  font-weight: 700;
   color: #d2232a;
 }
 
@@ -43,7 +42,6 @@ h6 {
 
 p {
   font-family: adriane, serif;
-  font-weight: 400;
 }
 
 .card {
