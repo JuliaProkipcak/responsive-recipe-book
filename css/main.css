@@ -60,6 +60,15 @@ p {
   font-family: adriane, serif;
 }
 
+.foot {
+  color: #d2232a;
+  font-family: adriane, serif;
+}
+
+footer {
+  background-color: #fff8f4;
+}
+
 .card {
   border-width: 1.5px;
   border-style: solid;

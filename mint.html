@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
@@ -10,34 +11,36 @@
   <link rel="stylesheet" href="https://use.typekit.net/kfw1ust.css">
   <link rel="stylesheet" href="https://use.typekit.net/kfw1ust.css">
   <link rel="stylesheet" href="https://use.typekit.net/kfw1ust.css">
+  <link href="favicon.ico" rel="shortcut icon">
+  <link href="favicon-196.png" rel="icon" type="image/png">
 </head>
 <body>
 
-  <header>
+  <header role="banner">
     <nav class="grid">
-      <img class="unit s-1-4 m-1-4 l-1-4 text-center" src="" alt="">
-      <div class="unit s-1-2 m-1-2 l-1-2">
+      <div class="unit s-1 m-1 l-1">
         <div class="grid">
-          <a href="landing-page.html" class="unit s-1-3 l-1-3 btn text-center">Home</a>
-          <a href="#" class="unit s-1-3 l-1-3 btn text-center">About</a>
-          <a href="index.html" class="unit s-1-3 l-1-3 btn text-center">Recipes</a>
+          <nav role="navigation">
+            <a href="landing-page.html" class="unit s-1-3 l-1-3 btn text-center">Home</a>
+            <a href="#" class="unit s-1-3 l-1-3 btn text-center">About</a>
+            <a href="index.html" class="unit s-1-3 l-1-3 btn text-center">Recipes</a>
+          </nav>
         </div>
       </div>
-      <img class="unit s-1-4 m-1-4 l-1-4 text-center" src="" alt="">
     </nav>
-    <div class="chop">
+
+    <div class="chop relative">
       <div class="banner push-none">
         <img src="images/banner.jpg" alt="" class="img-flex">
         <div class="content">
           <div class="gutter pad-t-2">
-            <h1 class="tera pad-t-2 text-center">Holiday Breadwinners</h1>
+            <h1 class="tera pad-t-2 text-center pin-center">Holiday Breadwinners</h1>
           </div>
         </div>
       </div>
     </div>
-  </header>
 
-  <main class="wrapper island-1-2">
+  <main class="wrapper island-1-2" role="main">
     <h2 class="pad-t-2 push-1-2 tera med">Phil’s Chickpea Chocolate Mint Chip Cookies</h2>
     <p>A delicious gluten, nut, and dairy free, plant-based cookie that still tastes just as good as the other, glutenous cookies out there. Chickpeas add a protein packed punch to every bite while chocolate and mint keep everything festive!</p>
     <img src="images/cookie-1.jpg" alt="" class="img-flex chop">
@@ -75,6 +78,18 @@
     </div>
 
   </main>
+
+  <footer class="grid">
+    <div class="unit s-1 m-1 l-1">
+      <div class="grid pad-b pad-t">
+        <a href="#" class="unit s-1-2 m-1-4 l-1-4 foot text-center milli">About</a>
+        <a href="#" class="unit s-1-2 m-1-4 l-1-4 foot text-center milli">Help</a>
+        <a href="#" class="unit s-1-2 m-1-4 l-1-4 foot text-center milli">Privacy Policy</a>
+        <a href="#" class="unit s-1-2 m-1-4 l-1-4 foot text-center milli">Cookies Policy</a>
+      </div>
+      <p class="unit s-1 m-1 l-1 milli text-center" role="contentinfo">Website Design by Julia Prokipcak, I do not own the images or recipes shown.</p>
+    </div>
+  </footer>
 
 </body>
 </html>

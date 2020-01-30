@@ -11,18 +11,19 @@
   <link rel="stylesheet" href="https://use.typekit.net/kfw1ust.css">
   <link rel="stylesheet" href="https://use.typekit.net/kfw1ust.css">
   <link rel="stylesheet" href="https://use.typekit.net/kfw1ust.css">
-  <link href="images/favicon-l.ico" rel="icon">
+  <link href="favicon.ico" rel="shortcut icon">
+  <link href="favicon-196.png" rel="icon" type="image/png">
 </head>
 <body>
 
-  <header>
+  <header role="banner">
     <nav class="grid">
       <div class="unit s-1 m-1 l-1">
-        <div class="grid">
+        <nav class="grid" role="navigation">
           <a href="landing-page.html" class="unit s-1-3 l-1-3 btn text-center">Home</a>
           <a href="#" class="unit s-1-3 l-1-3 btn text-center">About</a>
           <a href="index.html" class="unit s-1-3 l-1-3 btn text-center">Recipes</a>
-        </div>
+        </nav>
       </div>
     </nav>
 
@@ -39,13 +40,13 @@
 
   </header>
 
-  <main>
-    <div class="wrapper grid">
+  <main role="main">
+    <div class="wrapper island-1-2 grid">
       <div class="unit l-1-3 m-1-2 s-1 gutter-1-4 pad-t-1-2 pad-b-1-2">
         <div class="card island-1-2">
           <a href="mint.html" class="btn-2 btn-ghost">
             <img src="images/cookie-1.jpg" alt="" class="img-flex">
-            <p class="pad-t-1-4 push-none mega h4">Phil’s Chickpea Chocolate Mint Chip Cookies</p>
+            <h2 class="pad-t-1-4 push-none mega h4">Phil’s Chickpea Chocolate Mint Chip Cookies</h2>
           </a>
         </div>
       </div>
@@ -53,7 +54,7 @@
         <div class="card island-1-2">
           <a href="biscotti.html" class="btn-2 btn-ghost">
             <img src="images/cookie-2.jpg" alt="" class="img-flex">
-            <p class="pad-t-1-4 push-none mega h4">Best Ever Biscotti</p>
+            <h2 class="pad-t-1-4 push-none mega h4">Best Ever Biscotti</h2>
           </a>
         </div>
       </div>
@@ -61,7 +62,7 @@
         <div class="card island-1-2">
           <a href="spiced.html" class="btn-2 btn-ghost">
             <img src="images/cookie-3.jpg" alt="" class="img-flex">
-            <p class="pad-t-1-4 push-none mega h4">Spiced Chocolate Crinkle Cookies</p>
+            <h2 class="pad-t-1-4 push-none mega h4">Spiced Chocolate Crinkle Cookies</h2>
           </a>
         </div>
       </div>
@@ -69,12 +70,23 @@
         <div class="card island-1-2">
           <a href="ginger.html" class="btn-2 btn-ghost">
             <img src="images/cookie-4.jpg" alt="" class="img-flex">
-            <p class="pad-t-1-4 push-none mega h4">Ginger Sparkle Cookies</p>
+            <h2 class="pad-t-1-4 push-none mega h4">Ginger Sparkle Cookies</h2>
           </a>
         </div>
       </div>
     </div>
   </main>
 
+  <footer class="grid">
+    <div class="unit s-1 m-1 l-1">
+      <div class="grid pad-b pad-t">
+        <a href="#" class="unit s-1-2 m-1-4 l-1-4 foot text-center milli">About</a>
+        <a href="#" class="unit s-1-2 m-1-4 l-1-4 foot text-center milli">Help</a>
+        <a href="#" class="unit s-1-2 m-1-4 l-1-4 foot text-center milli">Privacy Policy</a>
+        <a href="#" class="unit s-1-2 m-1-4 l-1-4 foot text-center milli">Cookies Policy</a>
+      </div>
+      <p class="unit s-1 m-1 l-1 milli text-center" role="contentinfo">Website Design by Julia Prokipcak, I do not own the images or recipes shown.</p>
+    </div>
+  </footer>
 </body>
 </html>
